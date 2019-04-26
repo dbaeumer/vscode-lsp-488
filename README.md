@@ -6,7 +6,6 @@ Heavily documented sample code for https://code.visualstudio.com/api/language-ex
 
 This Language Server works for plain text file. It has the following language features:
 - Completions
-- Diagnostics regenerated on each file change or configuration change
 
 It also includes an End-to-End test.
 
@@ -16,7 +15,6 @@ It also includes an End-to-End test.
 .
 ├── client // Language Client
 │   ├── src
-│   │   ├── test // End to End tests for Language Client / Server
 │   │   └── extension.ts // Language Client entry point
 ├── package.json // The extension manifest.
 └── server // Language Server
@@ -34,5 +32,4 @@ It also includes an End-to-End test.
 - Run the launch config.
 - If you want to debug the server as well use the launch configuration `Attach to Server`
 - In the [Extension Development Host] instance of VSCode, open a document in 'plain text' language mode.
-  - Type `j` or `t` to see `Javascript` and `TypeScript` completion.
-  - Enter text content such as `AAA aaa BBB`. The extension will emit diagnostics for all words in all-uppercase.
+  - Type `i` to see completion.
