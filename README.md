@@ -2,6 +2,8 @@
 
 Heavily documented sample code for https://code.visualstudio.com/api/language-extensions/language-server-extension-guide
 
+Some edits
+
 ## Functionality
 
 This Language Server works for plain text file. It has the following language features:
