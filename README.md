@@ -25,6 +25,7 @@ It also includes an End-to-End test.
 ## Running the Sample
 
 - Run `npm install` in this folder. This installs all necessary npm modules in both the client and server folder
+- Run `npm run compile`
 - Open VS Code on this folder.
 - Press Ctrl+Shift+B to compile the client and server.
 - Switch to the Debug viewlet.
